@@ -1,18 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-#include<string.h>
-#include <ctype.h>
-void headMessage(const char *message)
-{
-    system("cls");
-    printf("\n\t\t\t***************************************************************************");
-    printf("\n\t\t\t************                                                   ************");
-    printf("\n\t\t\t************           Airline Booking System                  ************");
-    printf("\n\t\t\t************                                                   ************");
-    printf("\n\t\t\t***************************************************************************");
-    printMessageCenter(message);
-}
+#include "ars.h"
+
 void printMessageCenter(const char* message)
 {
     int len =0;
@@ -24,7 +11,18 @@ void printMessageCenter(const char* message)
         printf(" ");
     }
     printf("%s",message);
-}./
+}
+void headMessage(const char *message)
+{
+    system("cls");
+    system("clear");
+    printf("\n\t\t\t***************************************************************************");
+    printf("\n\t\t\t************                                                   ************");
+    printf("\n\t\t\t************           Airline Booking System                  ************");
+    printf("\n\t\t\t************                                                   ************");
+    printf("\n\t\t\t***************************************************************************");
+    printMessageCenter(message);
+}
 void welcomeMessage()
 {
     printf("\n\n\n\n\n");
