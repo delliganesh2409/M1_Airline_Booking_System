@@ -37,23 +37,4 @@ When: Need for Airline Ticket.
 
 How: By creating a system which will provide all the functionalities required, the booking of, cancelling of the tickets and other actions will be take more time and system needs more workers for these actions.
 
-#Detail requirements
 
-High Level Requirements:
-
-ID	               Description	                                                     Category	                                  Status
-HR01	    User shall be able to login to the system	                                Techincal	                               IMPLEMENTED
-HR02	User shall be able to purchase a ticket	                                      Techincal	                               IMPLEMENTED
-HR03	User shall be able to get summary of the ticket booked	                      Techincal	                               IMPLEMENTED
-HR04	User shall be able to cancel a ticket	                                        Techincal                                IMPLEMENTED
-HR05	User shall be able to view the reserved seats	                                Techincal                                IMPLEMENTED
-
-
-Low level Requirements:
-
- ID	       Description	                                                                        HLR ID	    Status (Implemented/Future)
-LR01	User shall be able to login to the system with correct login details	                     HR01	          IMPLEMENTED
-LR02	User need to book a ticket in a user entry mode	                                           HR01	          IMPLEMENTED
-LR03	If appropriate login details are not entered a message is displayed-"wrong password"	     HR01	          IMPLEMENTED
-LR04	User can view the booked details 	                                                         HR02	          IMPLEMENTED
-LR05	User can change the login id and password	                                                 HR02	          IMPLEMENTED
