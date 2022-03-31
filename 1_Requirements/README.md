@@ -36,5 +36,3 @@ Where: Anywhere
 When: Need for Airline Ticket.
 
 How: By creating a system which will provide all the functionalities required, the booking of, cancelling of the tickets and other actions will be take more time and system needs more workers for these actions.
-
-
