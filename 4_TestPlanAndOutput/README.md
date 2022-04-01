@@ -12,4 +12,6 @@
 |  T_08     |  H_05    | When you want search a ticket and enter invalid passport no | Enter choice :2 and enter invalid password number|No Record|No Record |Pass|
 |  T_09     |  H_06    | when you want see all passenger details with count and seat no | Enter choice :3 | View passenger details|  View passenger details | Pass |
 |  T_10     |  H_07    | when you want cancel ticket | Enter choice :4 | Enter passenger passport no|Enter passenger passport no|Pass|
-|  T_11     |  h_07    | when you want cancel ticket and enter the invalid passport no | Enter choice :4 and enter invalid passport no|Ticket not found| Ticket not found| Pass|
+|  T_11     |  H_07    | when you want cancel ticket and enter the invalid passport no | Enter choice :4 and enter invalid passport no|Ticket not found| Ticket not found| Pass|
+|  T_12     |  H_08    | When you want to change your username and password | Enter choice :5|Enter new username and enter new password| Enter new username and enter new password|Pass|
+|  T_13     |  H_09    |   when you want to exit | Enter choice : 0| Thank You!!! | Thank You !!!| Pass |
