@@ -38,7 +38,7 @@ void searchPassenger()
     {
         printf("\n\t\t\tPassenger id = %d\n",addPassengerInfoInDataBase.Passenger_id);
         printf("\n\t\t\tPassenger name = %s",addPassengerInfoInDataBase.PassengerName);
-        printf("\t\t\tFather Name = %s",addPassengerInfoInDataBase.fatherName);
+        printf("\t\t\tPassenger Destination = %s",addPassengerInfoInDataBase.Destination);
         printf("\n\t\t\tPassenger Address = %s",addPassengerInfoInDataBase.PassengerAddr);
         printf("\t\t\tPassenger Travelling Date(day/month/year) =  (%d/%d/%d)",addPassengerInfoInDataBase.PassengertravellingDate.dd,
                addPassengerInfoInDataBase.PassengertravellingDate.mm, addPassengerInfoInDataBase.PassengertravellingDate.yyyy);
@@ -76,8 +76,9 @@ void viewPassenger()
         printf("\n\t\t\tPassenger Count = %d\n\n",countPassenger);
         printf("\t\t\tPassenger id = %u\n",addPassengerInfoInDataBase.Passenger_id);
         printf("\t\t\tPassenger Name = %s",addPassengerInfoInDataBase.PassengerName);
-        printf("\t\t\tFather Name = %s",addPassengerInfoInDataBase.fatherName);
+        printf("\t\t\tPassenger Destination = %s",addPassengerInfoInDataBase.Destination);
         printf("\t\t\tPassenger Address = %s",addPassengerInfoInDataBase.PassengerAddr);
+        printf("\n\t\t\tPassenger Seat no = %d\n\n",countPassenger);
         printf("\t\t\tPassenger Travelling Date(day/month/year) =  (%d/%d/%d)\n\n",addPassengerInfoInDataBase.PassengertravellingDate.dd,
                addPassengerInfoInDataBase.PassengertravellingDate.mm, addPassengerInfoInDataBase.PassengertravellingDate.yyyy);
         found = 1;
@@ -169,7 +170,7 @@ void updateCredential(void)
     fwrite(&fileHeaderInfo,FILE_HEADER_SIZE, 1, fp);
     fclose(fp);
     printf("\n\t\t\tYour Password has been changed successfully");
-    printf("\n\t\t\ttLogin Again:");
+    printf("\n\t\t\tLogin Again:");
     fflush(stdin);
     getchar();
     exit(1);

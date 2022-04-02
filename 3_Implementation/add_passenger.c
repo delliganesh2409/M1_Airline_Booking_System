@@ -62,18 +62,6 @@ void addPassengerInDataBase()
     scanf("%u",&addPassengerInfoInDataBase.Passenger_id);
     do
     {
-        printf("\n\t\t\tFather Name  = ");
-        fflush(stdin);
-        fgets(addPassengerInfoInDataBase.fatherName,MAX_FATHER_NAME,stdin);
-        status = isNameValid(addPassengerInfoInDataBase.fatherName);
-        if (!status)
-        {
-            printf("\n\t\t\tName contain invalid character. Please enter again.");
-        }
-    }
-    while(!status);
-    do
-    {
         printf("\n\t\t\tPassenger Name  = ");
         fflush(stdin);
         fgets(addPassengerInfoInDataBase.PassengerName,MAX_PASSENGER_NAME,stdin);
@@ -86,9 +74,21 @@ void addPassengerInDataBase()
     while(!status);
     do
     {
+        printf("\n\t\t\tEnter Passenger Destination  = ");
+        fflush(stdin);
+        fgets(addPassengerInfoInDataBase.Destination,MAX_DESTINATION,stdin);
+        status = isNameValid(addPassengerInfoInDataBase.Destination);
+        if (!status)
+        {
+            printf("\n\t\t\tName contain invalid character. Please enter again.");
+        }
+    }
+    while(!status);
+    do
+    {
         printf("\n\t\t\tPassenger Address  = ");
         fflush(stdin);
-        fgets(addPassengerInfoInDataBase.PassengerAddr,MAX_FATHER_NAME,stdin);
+        fgets(addPassengerInfoInDataBase.PassengerAddr,MAX_PASSENGER_ADDRESS,stdin);
         status = isNameValid(addPassengerInfoInDataBase.PassengerAddr);
         if (!status)
         {

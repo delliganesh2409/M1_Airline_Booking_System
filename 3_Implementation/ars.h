@@ -15,7 +15,7 @@ void printMessageCenter(const char* message);
 #define MAX_SIZE_USER_NAME 30
 #define MAX_SIZE_PASSWORD  20
 #define FILE_NAME  "AirlineRecordSystem.bin"
-#define MAX_FATHER_NAME 50
+#define MAX_DESTINATION 50
 #define MAX_PASSENGER_NAME 50
 #define MAX_PASSENGER_ADDRESS 300
 #define FILE_HEADER_SIZE  sizeof(sFileHeader)
@@ -33,7 +33,7 @@ typedef struct
 typedef struct
 {
     unsigned int Passenger_id;
-    char fatherName[MAX_FATHER_NAME];
+    char Destination[MAX_DESTINATION];
     char PassengerName[MAX_PASSENGER_NAME];
     char PassengerAddr[MAX_PASSENGER_ADDRESS];
     Date PassengertravellingDate;
