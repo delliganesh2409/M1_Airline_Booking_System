@@ -6,3 +6,4 @@
 [![cppcheck-action](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/cppcheck.yml)
 
 [![Analysis](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/analysis.yml/badge.svg)](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/analysis.yml)
+[![Contribution Check - Git Inspector](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/delliganesh2409/M1_Airline_Booking_System/actions/workflows/gitinspector.yml)
